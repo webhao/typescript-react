@@ -1,0 +1,14 @@
+{
+  "extends": "@gago/tslint-config-react",
+  "rules": {
+    "ter-newline-after-var": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "src/**/*.spec.ts",
+      "**/test/**.ts",
+      "**/*.d.ts",
+      "configs/**/*.ts"
+    ]
+  }
+}
